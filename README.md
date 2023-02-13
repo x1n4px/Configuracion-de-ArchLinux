@@ -88,6 +88,30 @@ sudo pacman -S github-cli;
 gh auth login; //Te logeas en tu cuenta desde la terminal
 ```
 
+### VirtualBox
+```
+sudo pacman -S virtualbox;
+sudo pacman -S  linux-lts-headers;
+sudo modprobe vboxdrv;
+sudo modprobe vboxdrv vboxnetadp vboxnetflt vboxpci;
+sudo nano /etc/modules-load.d/virtualbox.conf
+AÑADIMOS AL FICHERO:
+vboxdrv
+vboxnetadp
+vboxnetflt
+vboxpci
+
+sudo gpasswd -a $USER vboxusers;
+sudo pacman -S virtualbox-guest-iso;
+```
+
+## Tienda del S.O.
+
+### Xournal (editor de pdfs)
+
+### TexMaker (Latex)
+
+## Wireshark
 
 # Atajos
 ```
