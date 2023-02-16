@@ -113,6 +113,8 @@ sudo pacman -S virtualbox-guest-iso;
 
 ### Wireshark
 
+### [chatGTP en terminal](https://github.com/m1guelpf/plz-cli)
+
 # Atajos
 ```
 alias edit="nano ~/.zshrc"
