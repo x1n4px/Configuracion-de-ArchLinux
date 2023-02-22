@@ -142,5 +142,10 @@ alias g="cd /home/in4p/Documents/otros && ./gitHelp.sh"
 alias cc="clear && ls"
 alias mirarpdf="pdfinfo"
 alias mirarfoto="exiftool"
+alias espacio="du -h"
+alias push="git push origin main"
+alias pull="git pull origin main"
+alias enlace="ln -s"
+
 
 ```
