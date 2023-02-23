@@ -104,6 +104,14 @@ vboxpci
 sudo gpasswd -a $USER vboxusers;
 sudo pacman -S virtualbox-guest-iso;
 ```
+### Maven
+```
+yay -S maven
+```
+### Java
+```
+pacman -sS java | grep jre
+```
 
 ## Tienda del S.O.
 
