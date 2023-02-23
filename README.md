@@ -122,6 +122,10 @@ pacman -sS java | grep jre
 ### Wireshark
 
 ### [chatGTP en terminal](https://github.com/m1guelpf/plz-cli)
+```
+curl -fsSL https://raw.githubusercontent.com/m1guelpf/plz-cli/main/install.sh | sh -
+export OPENAI_API_KEY='sk-XXXXXXXX'
+```
 
 # Atajos
 ```
