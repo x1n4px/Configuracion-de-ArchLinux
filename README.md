@@ -127,6 +127,16 @@ curl -fsSL https://raw.githubusercontent.com/m1guelpf/plz-cli/main/install.sh | 
 export OPENAI_API_KEY='sk-XXXXXXXX'
 ```
 
+### Node && npm for angular
+```
+yay -S npm
+pacman -S nodejs-lts-hydrogen 
+npm install -g @angular/cli
+
+```
+
+
+
 # Atajos
 ```
 alias edit="nano ~/.zshrc"
