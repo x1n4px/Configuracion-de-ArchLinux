@@ -91,6 +91,7 @@ gh auth login; //Te logeas en tu cuenta desde la terminal
 ### VirtualBox
 ```
 sudo pacman -S virtualbox;
+// virtualbox-host-modules-arch (2).
 sudo pacman -S  linux-lts-headers;
 sudo modprobe vboxdrv;
 sudo modprobe vboxdrv vboxnetadp vboxnetflt vboxpci;
