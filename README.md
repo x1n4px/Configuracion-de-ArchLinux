@@ -175,6 +175,9 @@ alias espacio="du -h"
 alias push="git push origin main"
 alias pull="git pull origin main"
 alias enlace="ln -s"
+alias h2="java -cp /home/in4p/.m2/repository/com/h2database/h2/2.1.2>
+alias sjar="java -jar target/spring.jpa.demo-0.0.1-SNAPSHOT.jar"
+
 
 
 ```
