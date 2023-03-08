@@ -72,6 +72,12 @@ zsh-syntax-highlighting
 source ~/.zshrc
 ```
 
+### Visual studio code
+```
+yay -S visual-studio-code-bin;
+``` 
+
+
 ### IntelIJ Idea
 Para este ide, en caso de tener cuenta educativa, podemos instalar directamente JetBrains toolBoxKit, en otro caso:
 ```
