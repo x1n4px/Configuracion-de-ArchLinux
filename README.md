@@ -143,6 +143,29 @@ npm install -g @angular/cli
 ```
 
 
+### MYSQL
+```
+sudo pacman -Syu;
+sudo pacman -S mysql;
+mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql;
+sudo systemctl start mysqld;
+sudo systemctl status mysqld;
+sudo mysql_secure_installation;
+```
+
+Para crear usuario:
+```
+sudo mysql;
+CREATE USER ‘<username>’@’localhost’ IDENTIFIED BY ‘<password>’;
+GRANT ALL PRIVILEGES ON *.* TO ‘<username>’@’localhost’ WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+exit
+mysql -u testuser -p;
+CREATE DATABASE <dbname>;
+SHOW DATABASES
+```
+
+
 
 # Atajos
 ```
