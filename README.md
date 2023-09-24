@@ -142,6 +142,12 @@ npm install -g @angular/cli
 
 ```
 
+### Haskell
+```
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+cabal --http-transport=plain-http update
+cabal --http-transport=plain-http install --lib QuickCheck
+```
 
 ### MYSQL
 ```
