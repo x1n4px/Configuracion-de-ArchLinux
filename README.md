@@ -171,6 +171,11 @@ CREATE DATABASE <dbname>;
 SHOW DATABASES
 ```
 
+Para acceder:
+```
+mysql -u usuario -p
+```
+
 
 
 # Atajos
