@@ -209,8 +209,20 @@ alias espacio="du -h"
 alias push="git push origin main"
 alias pull="git pull origin main"
 alias enlace="ln -s"
-alias h2="java -cp /home/in4p/.m2/repository/com/h2database/h2/2.1.2>
+alias h2="java -cp /home/in4p/.m2/repository/com/h2database/h2/2.1.214/h2-2.1.214.jar org.h2.tools.Server -ifNotExists"
 alias sjar="java -jar target/spring.jpa.demo-0.0.1-SNAPSHOT.jar"
+alias h1="mvn package && java -jar target/MainMenuShop-0.0.1-SNAPSHOT.jar"
+alias pl="cd /home/in4p/git/Procesadores-de-Lenguaje; git add .; git commit -m "act"; git push"
+alias basic="git add .; git commit -m "act";git push"
+alias fb="npm run build; firebase deploy"
+alias inergis="git add /home/in4p/git/fguma/01-CODIGO/BACKEND/fguma/src/main/java/com/inergis/fguma/controllers/StudentController.jav>
+alias fichar="python inergis.py"
+alias fichaje="nano horarios.txt"
+alias t="tree inergis"
+alias huerfano="sudo pacman -Rns $(pacman -Qtdq)"
+alias astroversion="nvm use v20.10.0"
+alias angularversion="nvm use v18.10.0"
+
 
 
 
