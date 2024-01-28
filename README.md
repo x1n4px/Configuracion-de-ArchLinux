@@ -1,3 +1,6 @@
+https://upload.wikimedia.org/wikipedia/commons/e/e8/Archlinux-logo-standard-version.png
+
+
 # Configuracion-de-ArchLinux
 
 ## Una vez tenemos la distribución de archlinux en el usb, iniciamos el ordenador. Si el ordenador tiene ethernet, podemos saltar este paso, en caso de tener wifi:
