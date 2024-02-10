@@ -224,6 +224,7 @@ alias t="tree inergis"
 alias huerfano="sudo pacman -Rns $(pacman -Qtdq)"
 alias astroversion="nvm use v20.10.0"
 alias angularversion="nvm use v18.10.0"
+alias fgumadump="mysqldump -u root -p fgumaDB > dump.sql"
 
 
 
