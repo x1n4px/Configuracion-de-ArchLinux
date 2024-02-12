@@ -138,11 +138,18 @@ export OPENAI_API_KEY='sk-XXXXXXXX'
 
 ### Node && npm for angular
 ```
-yay -S npm;
-pacman -S nodejs-lts-hydrogen ;
-npm install -g @angular/cli;
+sudo yay -S npm;
+sudo pacman -S nodejs-lts-hydrogen ;
+sudo npm install -g @angular/cli;
 
 ```
+
+### Intellij Toolbox
+```
+yay -S jetbrains-toolbox
+
+``` 
+
 
 ### Haskell
 ```
