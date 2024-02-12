@@ -138,9 +138,9 @@ export OPENAI_API_KEY='sk-XXXXXXXX'
 
 ### Node && npm for angular
 ```
-yay -S npm
-pacman -S nodejs-lts-hydrogen 
-npm install -g @angular/cli
+yay -S npm;
+pacman -S nodejs-lts-hydrogen ;
+npm install -g @angular/cli;
 
 ```
 
@@ -217,11 +217,6 @@ alias h1="mvn package && java -jar target/MainMenuShop-0.0.1-SNAPSHOT.jar"
 alias pl="cd /home/in4p/git/Procesadores-de-Lenguaje; git add .; git commit -m "act"; git push"
 alias basic="git add .; git commit -m "act";git push"
 alias fb="npm run build; firebase deploy"
-alias inergis="git add /home/in4p/git/fguma/01-CODIGO/BACKEND/fguma/src/main/java/com/inergis/fguma/controllers/StudentController.jav>
-alias fichar="python inergis.py"
-alias fichaje="nano horarios.txt"
-alias t="tree inergis"
-alias huerfano="sudo pacman -Rns $(pacman -Qtdq)"
 alias astroversion="nvm use v20.10.0"
 alias angularversion="nvm use v18.10.0"
 alias fgumadump="mysqldump -u root -p fgumaDB > dump.sql"
