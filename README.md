@@ -96,7 +96,7 @@ sudo pacman -S github-cli;
 gh auth login; //Te logeas en tu cuenta desde la terminal
 ```
 
-### VirtualBox
+### VirtualBox Archlinux
 ```
 sudo pacman -S virtualbox;
 // virtualbox-host-modules-arch (2).
@@ -113,6 +113,27 @@ vboxpci
 sudo gpasswd -a $USER vboxusers;
 sudo pacman -S virtualbox-guest-iso;
 ```
+
+### Virtualbox Manjaro
+```
+uname -r;
+sudo pacman -Ss virtualbox-host-modules;
+
+// tenemos que buscar el que tenga la misma version que el uname, por ej, para uname 6.6, buscamos un linux66-...
+sudo pacman -S linux65-virtualbox-host-modules;
+
+sudo pacman -S virtualbox;
+sudo vboxreload;
+vboxmanage -v | cut -dr -f1;
+wget https://download.virtualbox.org/virtualbox/7.0.10/Oracle_VM_VirtualBox_Extension_Pack-7.0.10.vbox-extpack;
+sudo vboxmanage extpack install Oracle_VM_VirtualBox_Extension_Pack-7.0.10.vbox-extpack;
+vboxmanage list extpacks;
+sudo usermod -aG vboxusers $USER;
+groups $USER;
+``
+
+
+
 ### Maven
 ```
 yay -S maven
