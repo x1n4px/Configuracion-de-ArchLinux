@@ -48,6 +48,19 @@ systemctl --user enable onedrive;
 systemctl --user start onedrive;
 ```
 
+### Terminales
+
+ 
+tilix:
+```
+yay -S tilix
+```
+warp:
+```
+yay -S warp-terminal
+```
+
+
 ### ZSH / P10K
 ```
 sudo pacman -S zsh zsh-completions zsh-autosuggestions;
