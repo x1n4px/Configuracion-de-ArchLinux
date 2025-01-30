@@ -1,0 +1,86 @@
+\documentclass{article}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{automata, arrows.meta, positioning}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[spanish]{babel}
+
+
+\begin{document}
+\begin{titlepage}
+\centering
+\begin{figure}
+\centering
+{\bfseries\LARGE Escuela técnica superior\par}
+\vspace{0.5cm}
+{\scshape\Large Facultad de Ingeniería Informática\par}
+\vspace{1cm}
+\centering
+\begin{Huge}
+\begin{center}
+
+\end{center}
+
+\vspace{2cm}
+\end{Huge}
+\end{figure}
+
+
+{\scshape\Huge Práctica Tema 3\par}
+{\scshape\Large Arquitectura LTE y Handover\par}
+\vspace{8cm}
+{\Large Ignacio Fernández Contreras\par}
+{\Large 3º Informática A\par}
+\vfill
+
+\end{titlepage}
+\clearpage\hbox{}
+\thispagestyle{empty}
+\newpage
+
+\newpage
+\tableofcontents
+
+\newpage
+
+
+\section{Ejercicio 1. Traza S1.pcap}
+\begin{flushleft}
+En base a esta información, y sabiendo que estamos analizando el tráfico que fluye a través
+de la interfaz S1, analiza la traza S1.pcap y responde a las siguientes preguntas añadiendo en
+cada caso una captura en la que se pueda visualizar el campo o los campos en base a los
+cuales se ha dado la respuesta.
+\end{flushleft}
+\begin{enumerate}
+\item ¿Qué tipo de tráfico contiene la traza, qué está ocurriendo?\\
+\begin{description}
+\item \textbf{Trama 3:} Initial UE Message - Attach Request (UE$\rightarrow$ MME)
+\item \textbf{Trama 4:} NAS: Auth Request (MME $\rightarrow$ UE)
+\item \textbf{Trama 5:} NAS: Auth Answer (UE $\rightarrow$ MME)
+\item \textbf{Trama 6:} NAS: Security Mode Command (MME $\rightarrow$ UE)
+\item \textbf{Trama 7:} NAS: Security Mode Complete (UE $\rightarrow$ MME)
+\item \textbf{Trama 8:} NAS: ESM Information Request (MME $\rightarrow$ UE)
+\item \textbf{Trama 9:} NAS: ESM Information Answer (UE $\rightarrow$ MME)
+\item \textbf{Trama 10:} S1AP: Initial Context Setup Request (MME $\rightarrow$ eNB)
+\item \textbf{Trama 11:} S1AP: Initial Context Setup Response (eNB $\rightarrow$ MME)
+\item \textbf{Trama 13:} NAS Attach Accept $\&$ Activate default bearer accept
+
+\item Esto mismo se repite de la trama 22 a la 30.
+\item Tras esta segunda comunicación, se encadena con:
+\item \textbf{Trama 39:} GTP - Modify bearer Request (MME $\rightarrow$ SGW)
+\item \textbf{Trama 40:} GTP - Modify bearer Response (SGW $\rightarrow$ MME)
+\item Posterior a esto, ocurre el intercambio de información hasta la trama 1090
+\end{description}
+
+
+
+
+
+
+
+
+
+
+\end{document}
