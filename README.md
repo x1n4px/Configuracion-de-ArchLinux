@@ -59,7 +59,10 @@ warp:
 ```
 yay -S warp-terminal
 ```
-
+RunJS:
+```
+yay -S runjs-bin;
+```
 
 ### ZSH / P10K
 ```
