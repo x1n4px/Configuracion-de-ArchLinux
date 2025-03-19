@@ -200,6 +200,7 @@ cabal --http-transport=plain-http install --lib QuickCheck
 sudo pacman -Syu;
 sudo pacman -S mysql;
 mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql;
+sudo systemctl start mysqld && sudo mysql_secure_installation
 sudo systemctl start mysqld;
 sudo systemctl status mysqld;
 sudo mysql_secure_installation;
