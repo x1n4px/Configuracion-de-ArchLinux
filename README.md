@@ -48,6 +48,9 @@ systemctl --user enable onedrive;
 systemctl --user start onedrive;
 ```
 
+### Gestor de ventanas
+Tiling Assistant
+
 ### Terminales
 
  
